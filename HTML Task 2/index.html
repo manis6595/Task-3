@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Servay Form</title>
+    <style>
+       span{padding: 800px;}
+       .container{
+        display: grid;
+        grid-template-columns: auto;
+        padding: 50px;
+        height: 10px;
+        
+        
+       }
+       
+       i{color: yellow;}
+       #exp{text-indent: 10px;}
+       #radioid{text-align: center;}
+       table, th, td {
+  border: 1px solid white;
+  color: aliceblue;
+}
+body{
+  background-color: #112D32;
+  color: #FAED26;
+}
+
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+      <i class="fa-solid fa-house" style="color: black;"></i>
+        <span class="navbar-brand mb-0 h1"><b>GUVI SERVAY FORM</b></span>
+      </nav>
+    <div class="container">
+        <form>
+            <div class="row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="First name*">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Last name*">
+              </div>
+              
+            </div><br>
+        </form><div class="temp">
+        <div class="form-group">
+            <b><label for="exampleInputEmail1">Email address*</label></b>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+          <label for="Experience"><b>Your Experience</label></b></div>
+            <div class="row">
+                <div class="col">
+                    <i class="fa-regular fa-star fa-fade" style="color:yellow;"></i>
+                    <i class="fa-regular fa-star fa-fade" style="color:yellow;"></i>
+                    <i class="fa-regular fa-star fa-fade" style="color:yellow;"></i>
+                    <i class="fa-regular fa-star fa-fade" style="color:yellow;"></i>
+                    <i class="fa-regular fa-star fa-fade" style="color:yellow;"></i>
+                <div>
+            </div> 
+            <label for="Experience" style="font-size: small;">Your Experience quote Overall, how would you rate experience with us ?</label> <br><br>
+            <label for="Experience"><b>How satisfied are you with*</b></label><br><br>
+            <table class="table table-hover">
+              <thead>
+                <tr >
+                <th scope="col" style="text-align: center;">Category</th>
+                  <th scope="col" id="tittle" style="text-align: center;">Unsatisfied</th>
+                  <th scope="col" id="tittle" style="text-align: center;">Neutral</th>
+                  <th scope="col" id="tittle" style="text-align: center;">Satisfied</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row" style="color: #65CCB8;">Purchase</th>
+                  <td><center><input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" ></center></td>
+                  <td><center><input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" ></center></td>
+                  <td><center><input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" ></center></td>
+                </tr>
+                <tr>
+                  <th scope="row" style="color: #65CCB8;">Service</th>
+                  <td><center><input class="form-check-input" type="radio" name="Radios" id="exampleRadios1" value="option1" ></center></td>
+                  <td><center><input class="form-check-input" type="radio" name="Radios" id="exampleRadios1" value="option1" ></center></td>
+                  <td><center><input class="form-check-input" type="radio" name="Radios" id="exampleRadios1" value="option1" ></center></td>
+                </tr>
+                <tr>
+                  <th scope="row" style="color: #65CCB8;">Company Overall</th>
+                  <td ><center><input class="form-check-input" type="radio" name="s" id="exampleRadios1" value="option1" ></center></td>
+                  <td><center><input class="form-check-input" type="radio" name="s" id="exampleRadios1" value="option1" ></center></td>
+                  <td><center><input class="form-check-input" type="radio" name="s" id="exampleRadios1" value="option1" ></center></td>
+                </tr>
+              </tbody>
+            </table>       <br>
+            <label for="Experience"><b>How Likely are you to*</label></b><br><br>
+            <table class="table table-hover">
+              <thead>
+                <tr >
+                <th scope="col" style="text-align: center;">Category</th>
+                  <th scope="col" id="tittle" style="text-align: center;">Unlikely</th>
+                  <th scope="col" id="tittle" style="text-align: center;">Neutral</th>
+                  <th scope="col" id="tittle" style="text-align: center;">Likely</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row" style="color: #65CCB8;">Buy From Us Again</th>
+                  <td><center><input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" ></center></td>
+                  <td><center><input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" ></center></td>
+                  <td><center><input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" ></center></td>
+                </tr>
+                <tr>
+                  <th scope="row" style="color: #65CCB8;">Recommend Our Produect to others</th>
+                  <td><center><input class="form-check-input" type="radio" name="Radios" id="exampleRadios1" value="option1" ></center></td>
+                  <td><center><input class="form-check-input" type="radio" name="Radios" id="exampleRadios1" value="option1" ></center></td>
+                  <td><center><input class="form-check-input" type="radio" name="Radios" id="exampleRadios1" value="option1" ></center></td>
+                </tr>
+                <tr>
+                  <th scope="row" style="color: #65CCB8;">Recommend Our Company to others</th>
+                  <td ><center><input class="form-check-input" type="radio" name="s" id="exampleRadios1" value="option1" ></center></td>
+                  <td><center><input class="form-check-input" type="radio" name="s" id="exampleRadios1" value="option1" ></center></td>
+                  <td><center><input class="form-check-input" type="radio" name="s" id="exampleRadios1" value="option1" ></center></td>
+                </tr>
+              </tbody>
+            </table> 
+            <label for="Experience">Additinal Comments or Suggestions*</label><br><br> 
+            <textarea style="width: 100%;;"></textarea><br><center>
+            <input class="btn btn-primary" type="submit" value="Submit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input class="btn btn-primary" type="reset" value="Reset"></center>
+         
+        </div>   
+              
+
+    </div>
+    <label style="text-align: end;">Copy Rights @Manikandan S_B51_WE_TAMIL</label>
+</body>
+</html>
